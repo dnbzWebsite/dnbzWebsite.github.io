@@ -1,3 +1,43 @@
 h2{
     color: red;
 }
+
+#file{
+    display: none;
+}
+
+#uninstall{
+    display: none;
+}
+
+#W{
+    display: none;
+}
+
+#NV{
+    display: none;
+}
+
+#vm{
+    display: none;
+}
+
+#safe{
+    display: none;
+}
+
+#safeSoft{
+    display: none;
+}
+
+#temp{
+    display: none;
+}
+
+#start{
+    display: none;
+}
+
+#time{
+    display: none;
+}
