@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>笔电问题</title>
+</head>
+<script src="../js/displayModeSwitch.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="../css/nb.css">
+
+<body>
+	<h2>为什么不推荐盲目购买MacBook？</h2>
+	<input type="button" value="显示/隐藏" onclick="displayModeSwitch('apple')">
+	<div style="display: none;" id="apple">
+		<h3>1.性价比</h3>
+		<h4>- 同价位的预算可以购买到性能更优秀的Windows笔记本</h4>
+		<h4>- 如果想要升级硬盘等配件，在苹果官网需要加大于市场价的价钱</h4>
+		<h3>2.兼容性</h3>
+		<h4>- 我们现在使用的电脑大多数都是X86架构，而苹果的M系列处理器是ARM架构，这就导致了有许多软件不兼容，虽然随着发布的这两年内已经有不少厂家陆陆续续适配了ARM，但仍有大部分厂家并未对ARM架构进行适配，如果想要达到Windows的兼容性，可能仍需几年来等待厂家适配</h4>
+		<h4>- 虽然有一些软件可以使用转译来达成在ARM上运行的目的，但这就和Linux的Wine一样，转译带来的性能丢失是不可估量的</h4>
+		<h3>3.游戏需求</h3>
+		<h4>- 如果你选择购买M系Mac，那就别想玩什么游戏了，本来对ARM适配的软件厂家就少之又少，游戏厂商对ARM的适配就寥寥无几了，虽然部分游戏也可通过转译的方式来游玩，可是这会带来不可估量的性能丢失，就连全球最大的游戏平台Steam内对ARM适配的游戏也不多，在这些游戏中再寻找到你想玩的那就更不可能了</h4>
+	</div>
+
+	<h2>如何选择一台适合自己的笔电？</h2>
+	<input type="button" value="显示/隐藏" onclick="displayModeSwitch('choose')">
+	<div style="display: none;" id="choose">
+		<h4>- 如果轻薄大于性能可以选择轻薄本，如果想要轻薄但也想要一点性能之类的可以选择商务本</h4>
+		<h4>- 如果想要一味的选择高性能，并且不经常带着笔电外出，可以选择游戏本</h4>
+		<h4>- 购买前可以去看一下相关评测</h4>
+		<h4>
+			常见的笔电CPU后缀：<br>
+			U -- 低压<br>
+			H -- 标压<br>
+			HK -- 标压且可超频<br>
+			HX -- 标压至尊版<br>
+			HS -- 标压但功耗更低<br>
+			G -- 带核显<br>
+			Y -- 超低压<br>
+		</h4>
+	</div>
+</body>
+
+</html>
