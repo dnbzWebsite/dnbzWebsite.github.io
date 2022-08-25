@@ -2,6 +2,18 @@ h2{
     color: red;
 }
 
+#px{
+    display: none;
+}
+
+#fresh{
+    display: none;
+}
+
+#fuckingSoft{
+    display: none;
+}
+
 #file{
     display: none;
 }
@@ -39,5 +51,13 @@ h2{
 }
 
 #time{
+    display: none;
+}
+
+#pass{
+    display: none;
+}
+
+#BL{
     display: none;
 }
